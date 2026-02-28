@@ -1,0 +1,40 @@
+name: file_manager
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.5+1
+  intl: ^0.20.2
+  file_picker: ^10.3.10
+  http: ^1.6.0
+  shared_preferences: ^2.5.4
+  path_provider: ^2.1.5
+  media_scanner: ^2.2.0
+  lottie: ^2.4.0
+  animated_splash_screen: ^1.0.0
+  path: ^1.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.11.0   # Correct placement
+
+flutter_icons:   # Must be top-level, NOT nested
+  android: true
+  ios: true
+  image_path: "assets/icons/logo1.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
